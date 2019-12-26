@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+#test {
+    transition: all 0.4s ease-in-out;
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F3F8F9;
+    line-height: 1.2;
+}
+
+#site {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.project-btn-s {
+    width: 100%;
+    text-align: center;
+}
+
+.input-system {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "name mail"
+        "titl titl"
+        "comme comme";
+}
+
+.input-system-el {
+    background-color: rgba(255, 255, 255, 0.877);
+    box-sizing: border-box;
+    height: 48px;
+    padding: 10px;
+    border: none;
+    resize: none;
+    color: #787878;
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+#titl {
+    box-sizing: border-box;
+    background-color: transparent;
+    color: transparent;
+}
+
+#comme {
+    background-color: rgba(255, 255, 255, 0.877);
+    ;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    resize: none;
+    color: #787878;
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+input {
+   
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+button {
+    cursor: pointer;
+}
+
+#bt1 {
+    float: left;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+    background-color: #1DA6DD;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s;
+}
+
+#bt1:hover {
+    transition: all 0.2s ease;
+    background-color: white;
+    color: #1DA6DD;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.15;
+    margin: 0;
+}
+
+#name {
+    grid-area: name;
+}
+
+#mail {
+    grid-area: mail;
+}
+
+#titl {
+    grid-area: titl;
+}
+
+#comme {
+    grid-area: titl;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.project-btn {
+    transition: all 0.2s ease;
+    background-color: #1DA6DD;
+    color: whitesmoke;
+    padding: 2px;
+
+    border: 1;
+    border-color: transparent;
+    border-radius: 2px;
+    margin-right: 10px;
+    ;
+}
+
+.project-btn:hover {
+    transition: all 0.2s ease;
+    background-color: white;
+    color: #1DA6DD;
+}
+
+.social-btn {
+    background-color: transparent;
+    border: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.container {
+    padding-right: 10vh;
+    padding-left: 10vh;
+    padding-top: 30px;
+}
+
+.off-top-padding {
+    padding-top: 0px;
+    ;
+}
+
+nav {
+    transition: all 0.4s ease-in-out;
+    z-index: 99999;
+    /* box-shadow: 0px 6px 15px -4px rgba(0,0,0,0.05); */
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    height: 70px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+
+}
+
+.shrink {
+    transition: all 0.4s ease-in-out;
+    background-color: #22B3D2;
+    box-shadow: 0px 6px 15px -4px rgba(0, 0, 0, 0.05);
+}
+
+nav #logo {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+span,
+form,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+nav #navbar-elements {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+nav #navbar-elements li {
+    padding-right: 20px;
+
+}
+
+nav #navbar-elements li:last-child {
+    padding-right: 0px;
+
+}
+
+/*  transition: all 1s ease-in-out; */
+nav #navbar-elements li a {
+    display: block;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #F3F8F9;
+    transition: all 0.1s ease-in-out;
+}
+
+nav #navbar-elements li a:hover {
+    color: #617f80;
+    transition: all 0.1s ease-in-out;
+
+}
+
+nav #navbar-elements li .active {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-image: url(banner.jpg);
+    height: 300px;
+    width: 100%;
+    background-color: #2C3532;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+header #welcome-section h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+header #welcome-section h1::first-letter {
+    color: #bcfbff;
+}
+
+main {
+    height: 100%;
+    background-color: #2C3532;
+    padding-bottom: 50px;
+}
+
+main::before {
+
+    top: 270px;
+    z-index: 10;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #2C3532;
+    z-index: 99;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+}
+
+main .project-preview img {
+    height: 200px;
+}
+
+.icon {
+    font-size: 2rem;
+    color: whitesmoke;
+    transition: all 0.2s ease;
+
+
+}
+
+.icon:hover {
+    transition: all 0.2s ease;
+
+    font-size: 2rem;
+    color: rgb(117, 180, 214);
+}
+
+main .project-title {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    padding-right: 5px;
+
+}
+
+footer {
+    font-style: inherit;
+    height: 50px;
+    width: 100;
+    background-color: rgb(63, 70, 67);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 320px) {
+    .container {
+        padding-right: 1vh;
+        padding-left: 1vh;
+    }
+
+    .input-system {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:
+            "name ""mail"
+            "titl"" titl"
+            "comme ""comme";
+    }
+
+    main .project-preview img {
+        height: 160px;
+        margin-top: 20px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+    #logo{
+        width: 100%;
+    }
+    nav{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .container {
+        padding-right: 2vh;
+        padding-left: 2vh;
+    }
+
+    .input-system {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:
+            "name ""mail"
+            "titl"" titl"
+            "comme ""comme";
+    }
+
+    main .project-preview img {
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .section-title {
+        text-align: center;
+    }#logo{
+        width: 100%;
+    }
+    nav{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .container {
+        padding-right: 4vh;
+        padding-left: 4vh;
+    }
+
+    .input-system {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:
+            "name ""mail"
+            "titl"" titl"
+            "comme ""comme";
+    }
+
+    main .project-preview img {
+        margin-top: 20px;
+        height: 180px;
+        height: 80px;
+    }
+
+    .section-title {
+        text-align: center;}
+
+    nav{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        padding-right: 6vh;
+        padding-left: 6vh;
+    }
+
+
+
+
+    .input-system {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:
+            "name ""mail"
+            "titl"" titl"
+            "comme ""comme";
+    }
+
+    main .project-preview img {
+        margin-top: 20px;
+        height: 80px;
+    }
+
+    .section-title {
+        text-align: center;}
+   
+   
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    main .project-preview img {
+        margin-top: 20px;
+        height: 80px;
+    }
+    .input-system {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:
+            "name ""mail"
+            "titl"" titl"
+            "comme ""comme";
+    }
+    nav{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}}
+
+@media (min-width: 1441px) and (max-width: 2560px) {}
+
+@media (min-width: 2561px) {}
